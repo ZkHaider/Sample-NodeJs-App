@@ -5,6 +5,4 @@ var profile = require("./profile.js");
 var users = process.argv.slice(2); // Slice at 2 index
 users.forEach(profile.getProfile);
 
-//profile.getProfile("haiderkhan2");
-
 
